@@ -13,7 +13,7 @@ RUN chown miner:miner /home/miner/run-miner.sh
 
 RUN mkdir /home/miner/t-rex/
 COPY t-rex /home/miner/t-rex
-RUN chmod 755 /home/miner/t-rex/trex
+RUN chmod 755 /home/miner/t-rex/t-rex
 RUN chown miner:miner /home/miner/t-rex/t-rex
 
 USER miner
